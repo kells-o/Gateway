@@ -1,0 +1,372 @@
+body {
+  background: lightblue;
+}
+
+h1 {
+  text-align: center;
+  font-size: 48px;
+  color: black;
+}
+
+/* Home page */
+.herocontainer {
+  background: url(https://www.employers.com/_locale-assets/images-and-downloads/5-where-employers-does-business/hero-newmexico.jpg);
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-title {
+  color: yellow;
+  text-shadow: -1px -1px 2px #000;
+}
+
+.home-paragraph-title {
+  display:flex;
+  justify-content: center;
+  font-size: 30px;
+  text-shadow: -1px -1px 2px white;
+  border-bottom: 2px black solid;
+}
+
+.herocontainer h1 {
+  font-size: 80px;
+}
+/* home page paragraph  */
+.indexp {
+  width: 80%;
+  font-size: 25px;
+  text-align: left;
+  margin: 50px auto;
+}  
+
+/* nav bar  */
+header {
+  background: salmon;
+  border-radius: 10px;
+  padding: 1px 0px;
+  border-style: solid;
+  position: relative;
+}
+
+.header-logo {
+  width: 65px;
+  position: absolute;
+  margin: -20px 0px;
+}
+header ul li {
+  display: inline-block;
+  font-size: 22px;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+}
+
+header ul li a {
+  color: black;
+}
+header ul li a:hover {
+  color: lightblue;
+}
+
+/* things to do css */
+/* bandelier*/
+
+.section-a {
+  display: flex;
+  margin: 10px 10%;
+}
+
+.content-a-title {
+  text-align: center;
+}
+
+.content-a-container {
+  width: 50%;
+  margin-right: 50px;
+}
+
+.content-b-title {
+  text-align: center;
+}
+
+.content-b-container {
+  font-weight: bold;
+  width: 50%;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+.image {
+  width: 650px;
+}
+
+/* santa rose blue hole */
+
+.section-b {
+  display: flex;
+  margin: 10px 10%;
+}
+
+.content-aa-container {
+  width: 50%;
+  margin-right: 50px;
+}
+
+.content-aa-title {
+  text-align: center;
+}
+
+.content-bb-title {
+  text-align: center;
+}
+
+.content-bb-container {
+  font-weight: bold;
+  width: 50%;
+}
+
+.image-container-a {
+  display: flex;
+  justify-content: center;
+}
+
+/* musical highway*/
+
+.section-c {
+  display: flex;
+  margin: 10px 10%;
+}
+
+.content-aaa-container {
+  width: 50%;
+  margin-right: 50px;
+}
+
+.content-aaa-title {
+  text-align: center;
+}
+
+.content-bbb-title {
+  text-align: center;
+}
+
+.content-bbb-container {
+  font-weight: bold;
+  width: 50%;
+}
+
+.image-container-b {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* IT businesses  */
+.wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.jcurve-title {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.kryterion-title {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.sicorp-title {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.jcurve {
+  height: 200px;
+  width: 200px;
+  justify-content: center;
+  padding: 10px;
+  align-self: center;
+}
+.kryterion {
+/*   height: 100px;
+  width: 200px; */
+  padding: 10px;
+  display: flex;
+  align-self: center;
+}
+.sicorp-logo {
+  padding: 20px;
+  align-self: center;
+}
+.itlogo {
+  margin: 0 auto;
+  height: 200px;
+  width: 200px;
+  padding: 20px;
+  align-self: center;
+}
+.it1 {
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  margin-right: 50px;
+  width: 50%;
+}
+.it2 {
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 50%;
+  font-weight: 400;
+}
+.it3 {
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 50%;
+}
+
+.jcurvelink {
+  color: #34495E;
+}
+
+.kryterionlink {
+  color: #34495E;
+}
+
+.sicorplink {
+  color: #34495E;
+}
+
+.jcurvelink:hover {
+  color: white;
+}
+
+.kryterionlink:hover {
+  color: white;
+}
+
+.sicorplink:hover {
+  color: white;
+}
+
+/* contact page */
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  margin: 3% 0;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 50px 100px 100px 100px;
+  justify-content: center;
+  border-radius: 1000px;
+  width: 30em;
+  background: salmon;
+}
+
+
+.form textarea {
+  border-radius: 1000px;
+}
+
+.form-logo {
+  height: 120px;
+  width: 120px;
+  margin: 0 auto;
+}
+.form-title {
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  color: #BF0A30;
+  margin: 25px 0;
+  text-shadow: -1px -1px 2px black;
+}
+.form-control {
+  position: relative;
+  height: auto;
+  padding: 20px 15px;
+  font-size: 15px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+#FirstName {
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+
+#LastName {
+  margin-bottom: 15px;
+}
+
+#PhoneNumber {
+  margin-bottom: 15px;
+}
+
+#Email {
+  margin-bottom: 25px;
+}
+
+#Message {
+  margin-bottom: 35px;
+  resize: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+
+.form-button {
+  width: 100%;
+  margin: 0 auto;
+  color: black;
+  font-size: 14px;
+  padding: 28px 40px 25px;
+  text-align: center;
+  border-radius: 900px;
+  text-transform: uppercase;
+  background-color: lightblue;
+  border: 1px solid black;
+}
+
+.form-button:hover {
+  color: gold;
+}
+
+/* footer */
+.footer {
+  display: flex;
+  justify-content: space-around;
+  border: 3px solid black;
+  align-items: center;
+  padding: 10px;
+  background: salmon;
+}
+
+.footer img {
+  width: 40px;
+}
+
+.logo-copyright {
+  display: flex;
+  align-items: center;
+}
